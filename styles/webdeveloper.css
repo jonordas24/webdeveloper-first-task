@@ -67,7 +67,7 @@ header {
 }
 
 /* main styles */
-main{
+main {
     width: 1140px;
 }
 
@@ -106,16 +106,14 @@ main section {
 }
 
 /* skill styles */
-#skill-section-title{
+#skill-section-title {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.skills{
-    
-}
+.skills {}
 
-.skill-item{
+.skill-item {
     display: flex;
     gap: 80px;
     justify-content: space-between;
@@ -133,6 +131,7 @@ main section {
     color: #151414;
     margin: 24px 0px 16px 0px;
 }
+
 .skill-item-description {
     font-size: 25px;
     font-weight: 500;
@@ -141,27 +140,101 @@ main section {
 }
 
 /* cta styles */
-.cta-section{
+.cta-section {
     background-image: url('../images/watch.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
 }
 
-.gradient-cta{
+.gradient-cta {
     background-image: url('../images/gradient1.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
 }
 
-.cta{
+.cta {
     padding: 60px;
 }
 
-#cta-section-title{
+#cta-section-title {
     color: white;
 }
 
 /* footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    background-color: #151414;
+    padding-bottom: 130px;
+    padding-top: 130px;
+    padding-right: 200px;
+    padding-left: 200px;
+    gap: 80px;
+}
 
+.footer-column {
+    width: 50%
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    /* width: 400px; */
+}
+
+.footer-info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.social-links {
+    margin-top: 16px;
+}
+
+.social-links a {
+    margin-right: 20px;
+}
+
+.footer-subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.footer-email {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: none;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.btn-secondary {
+    padding: 20px 36px;
+    font-size: 20px;
+    background-color: #005FAC;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    line-height: 24px;
+}
