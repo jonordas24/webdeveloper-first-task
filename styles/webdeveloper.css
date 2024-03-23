@@ -1,8 +1,9 @@
 /* shared styles */
-*{
+* {
     margin: 0 auto;
 }
-body{
+
+body {
     font-family: "Work Sans", sans-serif;
 }
 
@@ -14,7 +15,22 @@ body{
     font-weight: 600;
     color: #005FAC;
     border-radius: 5px;
-} 
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
 
 /* header styles  */
 header {
@@ -52,5 +68,74 @@ header {
 
 /* main styles */
 main{
+    width: 1140px;
+}
+
+main section {
     margin-top: 130px;
+}
+
+/* about styles */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.about-column {
+    margin: 0;
+}
+
+.about-content {
+    width: 416px;
+}
+
+.about-column img {
+    width: 560px;
+    height: 720px;
+}
+
+.about-column ul {}
+
+.about-column li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* skill styles */
+#skill-section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills{
+    
+}
+
+.skill-item{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.skill-item-content {
+    margin: 0;
+    text-align: center;
+}
+
+.skill-item-title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #151414;
+    margin: 24px 0px 16px 0px;
+}
+.skill-item-description {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #737272;
 }
