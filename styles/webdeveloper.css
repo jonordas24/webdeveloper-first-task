@@ -139,3 +139,29 @@ main section {
     line-height: 29px;
     color: #737272;
 }
+
+/* cta styles */
+.cta-section{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.gradient-cta{
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.cta{
+    padding: 60px;
+}
+
+#cta-section-title{
+    color: white;
+}
+
+/* footer styles */
+
